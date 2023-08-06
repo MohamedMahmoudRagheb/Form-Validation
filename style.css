@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+    body{
+        background-color: #e0e0e0c2;
+        height: 85vh;
+}
+    section{
+        width: 500px;
+        height: 495px;
+        background-color: white;
+        margin:auto;
+        margin-top: 10%;
+        position: relative;
+        border-radius: 15px;
+        box-shadow: 5px 5px 20px 1px rgb(67, 67, 67);
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: -80px;
+        left:36%;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        padding-top: 70px;
+    }
+    input{
+        height: 40px;
+        margin-left: 10px;
+        width: 93%;
+        font-size: 18px;
+        outline-color: #098ad6;
+    }
+    input::placeholder{
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    label{
+        margin-top: 10px;
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    input[type="submit"]{
+        background-color:blue;
+        color: white;
+        border: none;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        font-size: large;
+    }
+    input[type="submit"]:hover{
+        opacity: 0.7;
+        transition: 0.2s;
+    }
+    button{
+        background-color:rgb(6, 102, 227);
+        width: 200px;
+        height:40px;
+        margin-left: 30%;
+        margin-top: 20px;
+        border: none;
+        border-radius: 5px;
+        transition: .7s;
+    }
+    button:hover{
+        transform: scale(1.1);
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+    }
+    @media only screen and (max-width:600px){
+        body{
+            height: 90vh;
+        }
+        section{
+            width: 300px;
+            margin-top: 20%;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: -50px;
+            left:35%;
+        }
+        button{
+            margin-left: 16%;
+        }
+    }
+        #error{
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        text-align: center;
+    }

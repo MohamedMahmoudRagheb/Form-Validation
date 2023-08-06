@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="shortcut icon" href="image/images.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <section>
+        <h1>Sign Up</h1>
+        <hr>
+        <form action="#" class="form1" onsubmit="return formvaldation()">
+            <input type="text" placeholder="Enter your Name" id="name">
+            <input type="password" placeholder="Enter your Password" id="pass"> 
+            <input type="text" placeholder="Enter your Email" id="email">
+            <input type="submit" value="Sign Up">
+        </form>
+        <form class="form2">
+            <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <select>
+                <option value="jul">Jul</option>
+                <option value="feb">feb</option>
+                <option value="mar">mar</option>
+                <option value="Apr">Apr</option>
+                <option value="May">May</option>
+            </select>
+            <select>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+            </select>
+            </form>
+            <form class="form3">
+                <label for="famale">Famale</label>
+                <input type="radio" id="famale" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender">
+                <label for="custom">Custom</label>
+                <input type="radio" id="custom" name="gender">
+            </form>
+            <div id="error"></div>
+        </section>
+        <script src="main.js"></script>
+</body>
+</html>
